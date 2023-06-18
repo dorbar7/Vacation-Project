@@ -1,0 +1,60 @@
+16.4.2023, 18:27:11 	 Route / not exist
+-------------------------------
+16.4.2023, 18:27:11 	 Route /favicon.ico not exist
+-------------------------------
+6.6.2023, 17:20:19 	 Invalid Token
+-------------------------------
+6.6.2023, 17:20:28 	 Invalid Token
+-------------------------------
+6.6.2023, 17:21:05 	 Invalid Token
+-------------------------------
+6.6.2023, 17:24:10 	 Invalid Token
+-------------------------------
+6.6.2023, 17:26:22 	 ER_NO_SUCH_TABLE: Table 'dor_vacation.vacations' doesn't exist
+-------------------------------
+11.6.2023, 13:52:31 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 7
+-------------------------------
+11.6.2023, 13:53:12 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 7
+-------------------------------
+11.6.2023, 13:53:33 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 7
+-------------------------------
+11.6.2023, 13:54:02 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 7
+-------------------------------
+11.6.2023, 13:55:46 	 ER_NO_SUCH_TABLE: Table 'dor_vacation.vacations' doesn't exist
+-------------------------------
+11.6.2023, 13:56:14 	 ER_NO_SUCH_TABLE: Table 'dor_vacation.vacations' doesn't exist
+-------------------------------
+11.6.2023, 13:56:38 	 ER_BAD_FIELD_ERROR: Unknown column 'photoName' in 'field list'
+-------------------------------
+11.6.2023, 14:00:43 	 Route /api/followers-by-vacation/2 not exist
+-------------------------------
+11.6.2023, 14:03:08 	 Route /api/followers-by-vacation/2 not exist
+-------------------------------
+11.6.2023, 14:03:11 	 Route /api/followers-by-vacation/1 not exist
+-------------------------------
+12.6.2023, 11:03:24 	 Route /api//auth/register not exist
+-------------------------------
+12.6.2023, 11:07:01 	 Route /api/auth/register not exist
+-------------------------------
+12.6.2023, 11:08:49 	 Route /api/followers%22 not exist
+-------------------------------
+12.6.2023, 11:08:51 	 Route /api/followers not exist
+-------------------------------
+12.6.2023, 11:08:56 	 Route /api/followers not exist
+-------------------------------
+12.6.2023, 11:09:57 	 Route /api/followers not exist
+-------------------------------
+12.6.2023, 11:21:26 	 Route /api/followers/1 not exist
+-------------------------------
+12.6.2023, 11:25:06 	 Route /api/followers/1 not exist
+-------------------------------
+12.6.2023, 11:25:12 	 Route /api/followers not exist
+-------------------------------
+15.6.2023, 11:39:28 	 Route /api/followers not exist
+-------------------------------
+15.6.2023, 11:40:21 	 Route /api/followers/1 not exist
+-------------------------------
+15.6.2023, 11:45:03 	 ER_NO_SUCH_TABLE: Table 'dor_vacation.vacations' doesn't exist
+-------------------------------
+15.6.2023, 11:48:47 	 ER_BAD_FIELD_ERROR: Unknown column 'followers.followerId' in 'field list'
+-------------------------------
