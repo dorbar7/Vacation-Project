@@ -4,7 +4,7 @@ import {RoleModel} from "../4-models/role-model";
 import UserModel from "../4-models/user-model";
 
 
-const secretKey = "Dorbar";
+ const secretKey = "Dorbar";
 
 function getNewToken(user: UserModel): string {
 
@@ -69,10 +69,10 @@ async function verifyAdmin(request: Request): Promise<boolean> {
     const token = header.substring(7);
 
    
-    const container: any = jwt.decode(token);
+    const box: any = jwt.decode(token);
     
   
-    const user: UserModel = container.user;
+    const user: UserModel = box.user;
 
    
     return user.role === RoleModel.Admin;

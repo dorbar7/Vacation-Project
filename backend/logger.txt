@@ -58,3 +58,459 @@
 -------------------------------
 15.6.2023, 11:48:47 	 ER_BAD_FIELD_ERROR: Unknown column 'followers.followerId' in 'field list'
 -------------------------------
+19.6.2023, 16:14:05 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:14:39 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:14:43 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:14:44 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:14:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:15:14 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:31:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:32:18 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:33:44 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:35:31 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:35:58 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+19.6.2023, 16:36:02 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 13:13:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 13:16:13 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 13:16:28 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 13:20:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 13:26:07 	 You Are Not An Admin
+-------------------------------
+20.6.2023, 13:26:19 	 You Are Not An Admin
+-------------------------------
+20.6.2023, 13:30:40 	 "startDate" is required
+-------------------------------
+20.6.2023, 13:31:50 	 "description" length must be less than or equal to 100 characters long
+-------------------------------
+20.6.2023, 13:32:19 	 "description" length must be less than or equal to 100 characters long
+-------------------------------
+20.6.2023, 13:32:35 	 "description" length must be less than or equal to 200 characters long
+-------------------------------
+20.6.2023, 13:32:54 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a country in southeast Europe on the southern part of the Balkan peninsula an...' at line 2
+-------------------------------
+20.6.2023, 13:49:06 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a country in southeast Europe on the southern part of the Balkan peninsula an...' at line 2
+-------------------------------
+20.6.2023, 13:49:49 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a country in southeast Europe on the southern part of the Balkan peninsula an...' at line 2
+-------------------------------
+20.6.2023, 13:53:12 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'a country in southeast Europe on the southern part of the Balkan peninsula an...' at line 2
+-------------------------------
+20.6.2023, 13:53:53 	 "destination" is required
+-------------------------------
+20.6.2023, 13:54:27 	 "destination" is required
+-------------------------------
+20.6.2023, 13:58:58 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 14:01:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 14:02:25 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 14:12:50 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 14:20:32 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'description,price
+    FROM vacation
+    WHERE vacationId = 1' at line 6
+-------------------------------
+20.6.2023, 14:20:32 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'description,price
+    FROM vacation
+    WHERE vacationId = 1' at line 6
+-------------------------------
+20.6.2023, 16:24:17 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 16:24:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:48:20 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:48:58 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:53:30 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:53:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:56:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:56:34 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 17:56:34 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 17:59:33 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 17:59:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:00:06 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:00:08 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:00:08 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:00:11 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:00:14 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:00:14 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:00:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:00:49 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:00:49 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:02:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:02:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:02:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:02:45 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:02:47 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:02:47 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:02:55 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'description,price
+    FROM vacation
+    WHERE vacationId = 2' at line 6
+-------------------------------
+20.6.2023, 18:02:55 	 ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'description,price
+    FROM vacation
+    WHERE vacationId = 2' at line 6
+-------------------------------
+20.6.2023, 18:10:03 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:13:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:13:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:15:41 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:15:42 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:15:42 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:41:31 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:47:57 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:47:58 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:48:00 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:48:04 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:48:45 	 ER_BAD_FIELD_ERROR: Unknown column 'dor777' in 'where clause'
+-------------------------------
+20.6.2023, 18:55:14 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 18:55:30 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:55:30 	 Route /api/vacations/NaN not exist
+-------------------------------
+20.6.2023, 18:55:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:51:46 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:55:10 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:55:13 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:56:17 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:56:23 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:56:25 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 19:57:27 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 20:00:11 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:13 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:14 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:14 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:14 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:14 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:15 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:15 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:15 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:16 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:16 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:16 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:17 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:18 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:18 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:18 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:19 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:19 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:19 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:20 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:20 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:20 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:20 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:20 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:21 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:00:52 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:01:03 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:01:56 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:02:05 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:02:28 	 "userFirstName" is required
+-------------------------------
+20.6.2023, 20:04:34 	 "password" length must be at least 10 characters long
+-------------------------------
+20.6.2023, 21:43:25 	 "password" length must be at least 10 characters long
+-------------------------------
+20.6.2023, 21:43:34 	 ER_BAD_FIELD_ERROR: Unknown column 'dor555' in 'where clause'
+-------------------------------
+20.6.2023, 21:54:07 	 ER_BAD_FIELD_ERROR: Unknown column 'dor555' in 'where clause'
+-------------------------------
+20.6.2023, 21:55:22 	 ER_ILLEGAL_VALUE_FOR_TYPE: Illegal double '67e53334' value found during parsing
+-------------------------------
+20.6.2023, 21:58:27 	 ER_ILLEGAL_VALUE_FOR_TYPE: Illegal double '67e53334' value found during parsing
+-------------------------------
+20.6.2023, 22:00:25 	 ER_ILLEGAL_VALUE_FOR_TYPE: Illegal double '67e53334' value found during parsing
+-------------------------------
+20.6.2023, 22:01:00 	 ER_ILLEGAL_VALUE_FOR_TYPE: Illegal double '67e53334' value found during parsing
+-------------------------------
+20.6.2023, 22:02:06 	 ER_BAD_FIELD_ERROR: Unknown column 'dor777' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:24 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:28 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:30 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:31 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:34 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+20.6.2023, 22:08:40 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 19:24:24 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 19:24:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 19:24:45 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 19:27:30 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 19:27:32 	 Route /api/vacations/NaN not exist
+-------------------------------
+22.6.2023, 19:27:32 	 Route /api/vacations/NaN not exist
+-------------------------------
+22.6.2023, 19:27:37 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+22.6.2023, 20:08:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 11:57:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 11:57:50 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 11:58:12 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 11:58:29 	 "password" length must be at least 4 characters long
+-------------------------------
+23.6.2023, 11:58:37 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 12:01:30 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:29:11 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:29:11 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:31:29 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:31:30 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:31:30 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:32:52 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:32:54 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:32:55 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:35:28 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:38:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:42:40 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:42:40 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:44:19 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:44:19 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:44:19 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:45:56 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:45:57 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:45:57 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:51:45 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:51:58 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:51:58 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:53:03 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:53:03 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:55:55 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:55:57 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:55:58 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:55:59 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:55:59 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:02 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:02 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:03 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:04 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:23 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:56:36 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:56:39 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 13:56:40 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 13:56:40 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:00:06 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 14:00:08 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:00:08 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:14:01 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 14:14:02 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:14:02 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:15:19 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:15:19 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:15:45 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:15:53 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:16:04 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:16:11 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:17:11 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:29:24 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 14:29:32 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:29:32 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:29:42 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 14:29:42 	 Route /api/vacations/NaN not exist
+-------------------------------
+23.6.2023, 17:16:10 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:17:48 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 17:20:35 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 17:21:05 	 "username" length must be at least 6 characters long
+-------------------------------
+23.6.2023, 17:21:08 	 "username" length must be at least 6 characters long
+-------------------------------
+23.6.2023, 17:21:32 	 Username already in use.
+-------------------------------
+23.6.2023, 17:21:53 	 Incorrect username or password.
+-------------------------------
+23.6.2023, 17:23:42 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:23:45 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:23:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:28:40 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:30:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:30:28 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:33:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:36:44 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:37:19 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:39:06 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+23.6.2023, 17:39:53 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------

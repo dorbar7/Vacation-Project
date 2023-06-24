@@ -5,7 +5,7 @@ class UserModel {
     public userId: number
     public userFirstName: string
     public userLastName: string
-    public email: string
+    public username: string
     public password: string
     public role: RoleModel
 
@@ -13,17 +13,17 @@ class UserModel {
         this.userId = user.userId
         this.userFirstName = user.userFirstName
         this.userLastName = user.userLastName
-        this.email = user.email
-        this.password = user.password
+        this.username = user.username
+        this.password= user.password
         this.role = user.role
     }
 
     public static validationSchema = Joi.object({
         userId: Joi.number().optional().positive().integer(),
         userFirstName: Joi.string().required().min(2).max(20),
-        userLastName: Joi.string().required().min(2).max(25),
-        email: Joi.string().required().min(8).max(30),
-        password: Joi.string().required().min(10).max(40),
+        userLastName: Joi.string().required().min(2).max(20),
+        username: Joi.string().required().min(4).max(30),
+        password: Joi.string().required().min(5).max(40),
         role: Joi.forbidden()
     })
 

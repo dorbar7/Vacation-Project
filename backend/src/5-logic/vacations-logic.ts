@@ -21,10 +21,12 @@ async function getAllVacations(): Promise<VacationsModel[]> {
 async function getOneVacation(id: number): Promise<VacationsModel> {
    const sql = `
     SELECT
-       vacationId,destination,
+       vacationId AS id,
+       destination AS destination,
         DATE_FORMAT(dateStart,'%d/%m/%Y') AS dateStart,
         DATE_FORMAT(dateEnd,'%d/%m/%Y') AS dateEnd,
-        description,price,photo
+        photo AS photoName,
+        description ,price
     FROM vacation
     WHERE vacationId = ${id}
     `
@@ -47,13 +49,18 @@ async function getOneVacation(id: number): Promise<VacationsModel> {
     if (!vacation.photo) throw new ValidationErrorModel("Vacation Must A Photo")
    const extension = vacation.photo.name.substring(vacation.photo.name.lastIndexOf("."))
     vacation.photoName = v4() + extension
-    await vacation.photo.mv("./src/1-Assets/Images/Vacations Images/" + vacation.photoName)
+    await vacation.photo.mv("./src/1-assets/images/vaction Photos/" + vacation.photoName)
     delete vacation.photo
 
     const sql = `
-    INSERT INTO vacation(destination,dateStart,dateEnd,description,Price,photo) 
-    VALUES(${vacation.destination},${vacation.dateStart},${vacation.dateEnd},${vacation.description},${vacation.price},${vacation.photoName})
-    `
+    INSERT INTO vacation VALUES(
+        DEFAULT,
+        '${vacation.destination}',
+        '${vacation.dateStart}',
+        '${vacation.dateEnd}',
+        '${vacation.description}',
+        '${vacation.price}',
+        '${vacation.photoName}')`
     const info: OkPacket = await dal.execute(sql)
 
     vacation.id = info.insertId
@@ -70,12 +77,12 @@ async function updateVacation(vacation: VacationsModel): Promise<VacationsModel>
 
 
     if (vacation.photo) {
-        if (fs.existsSync("./src/1-Assets/Images/Vacations Images/" + vacation.photoName)) {
-            fs.unlinkSync("./src/1-Assets/Images/Vacations Images/" + vacation.photoName)
+        if (fs.existsSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)) {
+            fs.unlinkSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)
         }
         const extension = vacation.photo.name.substring(vacation.photo.name.lastIndexOf("."))
         vacation.photoName = uuid() + extension
-        await vacation.photo.mv("./src/1-Assets/Images/Vacations Images/" + vacation.photoName)
+        await vacation.photo.mv("./src/1-Assets/images/vaction Photos/" + vacation.photoName)
         delete vacation.photo
     }
 
@@ -85,7 +92,7 @@ async function updateVacation(vacation: VacationsModel): Promise<VacationsModel>
         description = ${vacation.description},
         dateStart = ${vacation.dateStart},
         dateEnd = ${vacation.dateEnd},
-        price = ?${vacation.price},
+        price = ${vacation.price},
         photo = ${vacation.photo}
     WHERE vacationId = ${vacation.id};
     `
@@ -102,21 +109,21 @@ async function deleteVacation(id: number): Promise<void> {
     const vacation = await getOneVacation(id)
 
     const sql = `
-    DELETE FROM vacations 
+    DELETE FROM vacation 
     WHERE vacationId = ${id}
     `
 
     const info: OkPacket = await dal.execute(sql)
 
     if (info.affectedRows === 0) throw new ResourceNotFoundErrorModel(id)
-    fs.unlinkSync("./src/1-Assets/Images/Vacations Images/" + vacation.photoName)
+    fs.unlinkSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)
 }
 
 async function getVacationImage(id: number): Promise<string> {
 
    const sql = `
-    SELECT photo FROM vacation
-    WHERE vacationId = ${id};
+    SELECT photo AS photoName FROM vacation
+    WHERE vacationId = ${id}
     `
 
     const info = await dal.execute(sql)

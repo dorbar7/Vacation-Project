@@ -10,28 +10,28 @@ async function register(user: UserModel): Promise<string> {
     const errors = user.validate()
     if (errors) throw new ValidationErrorModel(errors)
 
-    user.password = secure.hash(user.password)
-    const checkEmailQuery = `
+    // user.password = secure.hash(user.password)
+    const checkUsernameQuery = `
     SELECT 
         userId AS userId,
-        userFirstName AS userFirstName,
-        userLastName AS userLastName,
-        userEmail AS email,
+        userFirstName,
+        userLastName,
+        username,
         userPassword AS password,
         userRole AS role
     FROM users
-    WHERE userEmail = ${user.email}
+    WHERE username = '${user.username}'
     `
 
-    const checkEmail = await dal.execute(checkEmailQuery)
+    const checkUsername = await dal.execute(checkUsernameQuery)
 
-    if (checkEmail[0]) throw new ValidationErrorModel("Email already in use.")
+    if (checkUsername[0]) throw new ValidationErrorModel("Username already in use.")
 
     user.role = RoleModel.User
 
     const sql = `
-    INSERT INTO users(userFirstName,userLastName,email,password,userRole)
-    VALUES(${user.userFirstName},${user.userLastName},${user.email},${user.password},${user.role})
+    INSERT INTO users (userFirstName,userLastName,username,userPassword,userRole)
+    VALUES ('${user.userFirstName}','${user.userLastName}','${user.username}','${user.password}','${user.role}')
     `
     const info: OkPacket = await dal.execute(sql)
 
@@ -48,25 +48,25 @@ async function login(credentials: CredentialsModel): Promise<string> {
     const errors = credentials.validate()
     if (errors) throw new ValidationErrorModel(errors)
 
-    credentials.password = secure.hash(credentials.password)
+    // credentials.password = secure.hash(credentials.password)
 
     const userCheckQuery = `
     SELECT 
-        userID AS id,
-        userFirstName AS firstName,
-        userLastName AS lastName,
-        userEmail AS email,
+        userId,
+        userFirstName ,
+        userLastName ,
+        username ,
         userPassword AS password,
         userRole AS role
     FROM users
-    WHERE userEmail = ${credentials.username}
-    AND userPassword = ${credentials.password}
+    WHERE username = '${credentials.username}'
+    AND userPassword = '${credentials.password}'
     `
 
     const userCheck = await dal.execute(userCheckQuery)
 
     const user = userCheck[0]
-    if (!user) throw new UnauthorizedErrorModel("Incorrect email or password.")
+    if (!user) throw new UnauthorizedErrorModel("Incorrect username or password.")
 
     const token = secure.getNewToken(user)
 

@@ -2,7 +2,7 @@ import UserModel from "../4-models/user-model";
 import jwt from "jsonwebtoken"
 import { Request } from "express";
 import { RoleModel } from "../4-models/role-model";
-import crypto from "crypto"
+
 
 const secretKey = "Dorbar"
 
@@ -55,18 +55,18 @@ async function verifyAdmin(request: Request): Promise<boolean> {
     return user.role === RoleModel.Admin
 }
 
-const salt = "DorAbFullStackDev"
+// const salt = "DorTypeS"
 
-function hash(text: string): string {
-    if (!text) return null
-    const hashedText = crypto.createHmac("sha512", salt).update(text).digest("hex")
+// function hash(text: string): string {
+//     if (!text) return null
+//     const hashedText = crypto.createHmac("sha512", salt).update(text).digest("hex")
 
-    return hashedText
-}
+//     return hashedText
+// }
 
 export default {
     getNewToken,
     verifyToken,
     verifyAdmin,
-    hash
+    
 }

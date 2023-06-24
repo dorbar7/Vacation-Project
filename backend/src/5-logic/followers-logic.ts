@@ -22,7 +22,7 @@ async function getAllFollowers(): Promise<FollowerModel[]> {
     return followers
 }
 
-async function getFollowerByUserId(userId: number): Promise<FollowerModel> {
+async function followerByUserId(userId: number): Promise<FollowerModel> {
     const sql = `
     SELECT
         users.userFirstName AS 'firstName',
@@ -44,7 +44,7 @@ async function getFollowerByUserId(userId: number): Promise<FollowerModel> {
 async function userFollowingVacation(userId: number, vacationId: number): Promise<boolean> {
     const sql = `
     SELECT * FROM followers 
-    WHERE userIDd = ${userId}
+    WHERE userId = ${userId}
     AND vacationId = ${vacationId}
     `
 
@@ -84,7 +84,7 @@ async function addFollower(follower: FollowerModel) {
 
     const response = await dal.execute(checkIfExist)
 
-    if (response[0]) throw new ValidationErrorModel("Already exist")
+    if (response[0]) throw new ValidationErrorModel("Is Already exist")
 
     const sql = `
     INSERT INTO followers(userId, vacationId) VALUES (${follower.userId},${follower.vacationId})
@@ -129,7 +129,7 @@ async function removeFollower(userId: number, vacationId: number): Promise<void>
 
 export default {
     getAllFollowers,
-    getFollowerByUserId,
+    followerByUserId,
     userFollowingVacation,
     addFollower,
     getFollowersOnVacationByVacationId,
