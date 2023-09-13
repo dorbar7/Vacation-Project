@@ -10,6 +10,7 @@ import Register from "../../AuthArea/Register/Register";
 import Logout from "../../AuthArea/Logout/Logout";
 import Login from "../../AuthArea/Login/Login";
 import EditVacation from "../../VacationsArea/EditVacation/EditVacation";
+import FollowVacations from "../../UserArea/FollowVacation/FollowVacation";
 
  function Routing(): JSX.Element {
 
@@ -27,9 +28,9 @@ import EditVacation from "../../VacationsArea/EditVacation/EditVacation";
                <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/logout" element={<Logout />} />
-                <Route path="/vacation-edit/:vacationId" element={<EditVacation />} />
-                {/* <Route path="/" element={ } />  */}
-                {/* <Route path="/my-vacation" element={<MyVacations />} /> */}
+                <Route path="/edit-vacation/:vacationId" element={<EditVacation />} />
+                 <Route path="/" element={ <Home />} />  
+                 <Route path="/my-vacation" element={<FollowVacations/>} /> 
                 {/* <Route path="/future-vacations" element={<FutureVacations />} />*/}
                 <Route path="*" element={<PageNotFound />} /> 
             </Routes>

@@ -1,3 +1,4 @@
+
 import VacationModel from "../Models/VacationModel";
 import { createStore } from "redux";
 
@@ -11,6 +12,9 @@ export enum VacationActionType{
     AddVacation,
     UpdateVacation,
     DeleteVacation,
+    FollowVacation,
+    UnfollowVacation
+    
 }
 
 export interface VacationAction{
@@ -41,6 +45,17 @@ export function VacationReducer(currentState= new VacationState() ,action:Vacati
                 newState.vacations.splice(indexForDelete, 1)
             }
             break
+               case VacationActionType.FollowVacation:
+                const follow = newState.vacations.find(v => v.follow === action.payload)
+                follow.follow = 1
+                follow.followersCount = + 1
+                break
+    
+            case VacationActionType.UnfollowVacation:
+                const unFollow = newState.vacations.find(v => v.follow === action.payload)
+                if (unFollow.follow === 1)
+                    unFollow.followersCount = -1
+                break
             
     }
 

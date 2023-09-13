@@ -7,6 +7,8 @@ class VacationModel{
     public price: number
     public photoName: string
     public photo:  FileList
+    public follow: number
+    public followersCount:number
 
 
     public static destinationValid ={

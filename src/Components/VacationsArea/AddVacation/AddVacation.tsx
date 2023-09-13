@@ -3,10 +3,11 @@ import "./AddVacation.css";
 import VacationModel from "../../../Models/VacationModel";
 import { useNavigate } from "react-router-dom";
 import vacationsService from "../../../Services/VacationService";
-
+import VerifyAdmin from "../../../Utils/VerifyAdmin";
+import { verify } from "crypto";
 
 function  AddVacation(): JSX.Element {
-
+//  VerifyAdmin()
  const { register, handleSubmit, formState } = useForm<VacationModel>();
    const navigate = useNavigate();
 
@@ -22,8 +23,9 @@ function  AddVacation(): JSX.Element {
     }
 
     return (
+     
         <div className="AddVacation Box">
-
+             
             <form onSubmit={handleSubmit(send)}>
 
                 <h2>Add Vacation</h2>

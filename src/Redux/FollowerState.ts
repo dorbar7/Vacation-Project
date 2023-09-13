@@ -34,17 +34,6 @@ export function FollowerReducer(currentState = new FollowerState(), action: Foll
                 newState.followers.splice(indexToDel, 1)
             }
             break
-            // case FollowerActionType.FollowVacation:
-            //     const follow = newState.followers.find(f => f.destination === action.payload)
-            //     follow. = 1
-            //     follow. += 1
-            //     break
-    
-            // case FollowerActionType.UnfollowVacation:
-            //     const unFollow = newState.followers.find(f => f.vacationId === action.payload)
-            //     if (unFollow.follow === 1)
-            //         unFollow.followersCount = 0
-            //     break
     }
     return newState
 }

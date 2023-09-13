@@ -4,9 +4,10 @@ import VacationModel from "../../../Models/VacationModel";
 import { useNavigate, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import vacationsService from "../../../Services/VacationService";
+import VerifyAdmin from "../../../Utils/VerifyAdmin";
 
 function EditVacation(): JSX.Element {
-    
+    VerifyAdmin()    
     const {register,handleSubmit,formState,setValue} = useForm<VacationModel>()
     const params = useParams()
     const nevigate=useNavigate()
@@ -71,7 +72,7 @@ function EditVacation(): JSX.Element {
             <label>Photo: </label>
             <input type="file" accept="image/*" {...register("photo")} />
 
-                 <button>Add</button>
+                 <button>Update</button>
 
      </form>
     </div>

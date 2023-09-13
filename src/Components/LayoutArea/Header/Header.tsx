@@ -5,6 +5,7 @@ function Header(): JSX.Element {
     return (
         <div className="Header">
                             <AuthMenu />
+                            
 						<h2>Go To Vacations ✈ 🏖 </h2>
 
         </div>

@@ -7,9 +7,10 @@ import notify from "../../../Services/NotifyService";
 import "./FollowVacation.css";
 import axios from "axios";
 import appConfig from "../../../Utils/Config";
-import { AuthState } from "../../../Redux/AuthState";
 import FollowerModel from "../../../Models/FollowerModel";
-import { promises } from "stream";
+
+import { verify } from "crypto";
+
 
 
 interface FollowVacationProps {
@@ -17,7 +18,7 @@ interface FollowVacationProps {
 }
 
 function FollowVacation(props: FollowVacationProps): JSX.Element {
-
+   
     const [isFollowing, setIsFollowing] = useState(false);
        
 

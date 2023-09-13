@@ -5,15 +5,15 @@ import { useNavigate } from "react-router-dom"
 import { useEffect } from "react"
 import { RoleModel } from "../Models/RoleModel"
 
+
 function VerifyAdmin(){
-
-
+    
         const navigate = useNavigate()
     
         useEffect(() => {
     
             if (authStore.getState().user) {
-                if (authStore.getState().user.role !== RoleModel.Admin) {
+                if (authStore.getState().user.role !== RoleModel.Admin || authStore.getState().user.role=== "Admin") {
                     navigate("/vacations")
                     notify.error("You Are Not An Admin ")
                 }

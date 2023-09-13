@@ -4,17 +4,18 @@ import { RoleModel } from "../../../Models/RoleModel";
 import { authStore } from "../../../Redux/AuthState";
 import { NavLink } from "react-router-dom";
 import VerifyAdmin from "../../../Utils/VerifyAdmin";
+import authService from "../../../Services/AuthService";
 
 
 
 function AdminMenu(): JSX.Element {
    
 
-        const [admin, setAdmin] = useState<RoleModel>();
+        const [Admin, setAdmin] = useState<RoleModel>();
 
         useEffect(() => {
 
-        setAdmin(authStore.getState().user.role=admin);
+        setAdmin(authStore.getState().user.role=Admin);
 
      const unsubscribe = authStore.subscribe(() => {
         setAdmin(authStore.getState().user.role);
@@ -27,7 +28,7 @@ function AdminMenu(): JSX.Element {
 return (
     <div className="AdminMenu">
            
-         {admin&&<>
+           {authService.isAdmin() === true && <>
             <NavLink to="/add-vacation">Add Vacation</NavLink>
             <span> | </span>
             <NavLink to="/edit-vacation">🖊</NavLink>

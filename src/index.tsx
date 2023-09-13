@@ -12,11 +12,11 @@ const root = ReactDOM.createRoot(
 
 interceptorService.createInterceptors()
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
         <Layout />
     </BrowserRouter>
-  </React.StrictMode>
+  /* </React.StrictMode> */
 );
 
 // If you want to start measuring performance in your app, pass a function

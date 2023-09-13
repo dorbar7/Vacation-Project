@@ -1,7 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Menu.css";
+import useVerifyLoggedIn from "../../../Utils/UseVerifyLoggedIn";
+import notify from "../../../Services/NotifyService";
 
 function Menu(): JSX.Element {
+ 
     return (
         <div className="Menu">
 			<NavLink to="/home">Home</NavLink>
