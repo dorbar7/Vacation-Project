@@ -10,6 +10,8 @@ class VacationsModel {
     public price: number
     public photoName: string
     public photo: UploadedFile
+    public follow: number
+    public followersCount:number
   
 
     public constructor(vacation: VacationsModel) {
@@ -21,6 +23,8 @@ class VacationsModel {
         this.price = vacation.price
         this.photoName = vacation.photoName
         this.photo = vacation.photo
+        this.follow= vacation.follow
+        this.followersCount=vacation.followersCount
     }
 
     public static validationSchema = Joi.object({
@@ -31,7 +35,9 @@ class VacationsModel {
         description: Joi.string().required().min(5).max(400),
         price: Joi.number().required().positive().min(50).max(20000),
         photoName: Joi.string().optional(),
-        photo: Joi.object().optional()
+        photo: Joi.object().optional(),
+        follow:Joi.number().required().positive(),
+        followersCount: Joi.number().required().positive()
     })
 
     public validate(): string {

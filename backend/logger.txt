@@ -514,3 +514,523 @@
 -------------------------------
 23.6.2023, 17:39:53 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
 -------------------------------
+24.6.2023, 16:09:27 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:10:40 	 Incorrect username or password.
+-------------------------------
+24.6.2023, 16:10:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:10:56 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:10:58 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:11:01 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:11:11 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:11:13 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:11:59 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:12:02 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:15:41 	 Incorrect username or password.
+-------------------------------
+24.6.2023, 16:15:48 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:18:39 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:33:32 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:33:46 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:34:52 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:35:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:35:38 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:35:47 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:35:51 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:35:51 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:40:36 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:41:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:41:56 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:42:12 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:42:14 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:42:16 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:42:18 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:43:35 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:50:40 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:56:11 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 16:56:12 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:04:01 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:06:07 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:06:10 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:06:14 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:35:08 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:35:11 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:38:16 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:38:20 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:38:25 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:38:26 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:38:30 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:46:03 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+24.6.2023, 17:47:17 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:48:26 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 17:48:26 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 17:48:29 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:48:31 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:48:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 17:48:37 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 17:49:07 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:49:10 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:52:24 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:52:26 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:55:28 	 id NaN not exist
+-------------------------------
+24.6.2023, 17:56:21 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:04:36 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:04:55 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:10:22 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:10:49 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:11:28 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:11:31 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:19:09 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:19:36 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:21:16 	 id NaN not exist
+-------------------------------
+24.6.2023, 18:21:45 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:23 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:40 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:47 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:52 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:54 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:01:57 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:02:07 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:18:01 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:18:01 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:18:05 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:19:20 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:19:45 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:23:59 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:23:59 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:24:02 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:24:05 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:25:13 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:13 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:18 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:25:20 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:21 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:21 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:25 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:25:28 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:28 	 Route /api/vacations/NaN not exist
+-------------------------------
+24.6.2023, 19:25:44 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:26:41 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:27:01 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:27:04 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:27:34 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:28:13 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:28:52 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:29:03 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:29:06 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:30:52 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:31:34 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:33:03 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:33:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:33:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:33:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:33:50 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:38:43 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:38:52 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:39:11 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:39:42 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:40:05 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:42:42 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:42:43 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:43:21 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:43:56 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:46:19 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:46:21 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:47:01 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:47:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:36 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:36 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:36 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:47:36 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:48:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:48:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:48:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:01 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:49:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:49:05 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:51:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:51:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:51:44 	 id NaN not exist
+-------------------------------
+24.6.2023, 19:51:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:52:32 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:52:32 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 19:52:32 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:18:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:18:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:18:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:19:04 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:19:04 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:19:04 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:11 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:11 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:11 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:21:15 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:25:30 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:25:30 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:25:30 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:27:52 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:27:52 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:27:52 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:03 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:06 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:06 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:06 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:08 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:08 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:08 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:21 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:21 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:21 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:53 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:53 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:28:53 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:00 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:00 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:00 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:01 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:20 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:20 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:20 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:31 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:31 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:31 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:33 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:44 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:51 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:51 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:33:51 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:47:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:47:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:47:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:40 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:40 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:40 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:45 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:45 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 20:48:45 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:07:57 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:07:57 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:07:57 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:14:38 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:14:38 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:14:38 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:17:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:17:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:17:16 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:20:19 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:20:19 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:20:19 	 The "path" argument must be of type string. Received undefined
+-------------------------------
+24.6.2023, 21:37:29 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Italy.jpg'
+-------------------------------
+24.6.2023, 21:37:29 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+24.6.2023, 21:37:29 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Greece.jpg'
+-------------------------------
+24.6.2023, 21:37:42 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Greece.jpg'
+-------------------------------
+24.6.2023, 21:37:42 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+24.6.2023, 21:37:42 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Italy.jpg'
+-------------------------------
+24.6.2023, 21:37:53 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Italy.jpg'
+-------------------------------
+24.6.2023, 21:37:53 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Greece.jpg'
+-------------------------------
+24.6.2023, 21:37:53 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+24.6.2023, 21:38:07 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Italy.jpg'
+-------------------------------
+24.6.2023, 21:38:07 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+24.6.2023, 21:38:07 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Greece.jpg'
+-------------------------------
+24.6.2023, 21:43:00 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+24.6.2023, 21:49:24 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+25.6.2023, 1:28:22 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 1:28:53 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 1:30:46 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 2:00:09 	 Incorrect username or password.
+-------------------------------
+25.6.2023, 11:20:43 	 Incorrect username or password.
+-------------------------------
+25.6.2023, 11:20:56 	 Incorrect username or password.
+-------------------------------
+25.6.2023, 12:16:12 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:16:15 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+25.6.2023, 12:16:28 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+25.6.2023, 12:16:29 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:16:34 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:17:27 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:19:53 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:19:57 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 12:19:59 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+25.6.2023, 13:13:28 	 ENOENT: no such file or directory, stat 'C:\Users\dorba\OneDrive\Desktop\Vication Project\backend\src\1-assets\images\vacation-photos\Thailand.jpg'
+-------------------------------
+8.7.2023, 23:38:39 	 Route /api/followers/2 not exist
+-------------------------------
+8.7.2023, 23:38:43 	 Route /api/followers/2 not exist
+-------------------------------
+9.7.2023, 10:30:30 	 Route /api/followers/2 not exist
+-------------------------------
+9.7.2023, 10:30:52 	 Route /api/followers/3 not exist
+-------------------------------
+9.7.2023, 10:31:34 	 Route /api/followers/3 not exist
+-------------------------------
+9.7.2023, 10:31:36 	 Route /api/followers/3 not exist
+-------------------------------
+9.7.2023, 10:31:37 	 Route /api/followers/3 not exist
+-------------------------------
+9.7.2023, 10:32:05 	 ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+-------------------------------
+9.7.2023, 10:34:44 	 Route /api/followers/2 not exist
+-------------------------------
+9.7.2023, 10:35:02 	 Route /api/followers/2 not exist
+-------------------------------
+9.7.2023, 10:35:03 	 Route /api/followers/2 not exist
+-------------------------------

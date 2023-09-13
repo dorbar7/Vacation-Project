@@ -31,7 +31,7 @@ router.get("/vacations/images/:id", async (request: Request, response: Response,
     try {
         const id = +request.params.id
         const photoName = await vacationsLogic.getVacationImage(id)
-        const Path = path.join(__dirname, "..", "1-Assets", "Images", "vacations Photos", photoName)//
+        const Path = path.join(__dirname, "..", "1-assets", "images", "vacation-photos", photoName)//
         response.sendFile(Path)
     }
     catch (err: any) {

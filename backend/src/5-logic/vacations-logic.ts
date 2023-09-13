@@ -9,7 +9,7 @@ import { v4 as uuid, v4 } from "uuid";
 async function getAllVacations(): Promise<VacationsModel[]> {
     const sql = `
     SELECT 
-        vacationId,destination ,DATE_FORMAT(dateStart,'%d/%m/%Y') AS dateStart,DATE_FORMAT(dateEnd,'%d/%m/%Y') AS dateEnd,
+        vacationId as id,destination ,DATE_FORMAT(dateStart,'%d/%m/%Y') AS dateStart,DATE_FORMAT(dateEnd,'%d/%m/%Y') AS dateEnd,
         description,price ,Photo 
     FROM vacation
         ORDER BY vacation.dateStart ASC;
@@ -49,7 +49,7 @@ async function getOneVacation(id: number): Promise<VacationsModel> {
     if (!vacation.photo) throw new ValidationErrorModel("Vacation Must A Photo")
    const extension = vacation.photo.name.substring(vacation.photo.name.lastIndexOf("."))
     vacation.photoName = v4() + extension
-    await vacation.photo.mv("./src/1-assets/images/vaction Photos/" + vacation.photoName)
+    await vacation.photo.mv("./src/1-assets/images/vacation-photos/" + vacation.photoName)
     delete vacation.photo
 
     const sql = `
@@ -77,12 +77,12 @@ async function updateVacation(vacation: VacationsModel): Promise<VacationsModel>
 
 
     if (vacation.photo) {
-        if (fs.existsSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)) {
-            fs.unlinkSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)
+        if (fs.existsSync("./src/1-assets/images/vacation-photos/" + vacation.photoName)) {
+            fs.unlinkSync("./src/1-assets/images/vacation-photos/" + vacation.photoName)
         }
         const extension = vacation.photo.name.substring(vacation.photo.name.lastIndexOf("."))
         vacation.photoName = uuid() + extension
-        await vacation.photo.mv("./src/1-Assets/images/vaction Photos/" + vacation.photoName)
+        await vacation.photo.mv("./src/1-Assets/images/vacation-photos/" + vacation.photoName)
         delete vacation.photo
     }
 
@@ -116,7 +116,7 @@ async function deleteVacation(id: number): Promise<void> {
     const info: OkPacket = await dal.execute(sql)
 
     if (info.affectedRows === 0) throw new ResourceNotFoundErrorModel(id)
-    fs.unlinkSync("./src/1-assets/images/vaction Photos/" + vacation.photoName)
+    fs.unlinkSync("./src/1-assets/images/vacation-photos/" + vacation.photoName)
 }
 
 async function getVacationImage(id: number): Promise<string> {
@@ -130,7 +130,7 @@ async function getVacationImage(id: number): Promise<string> {
 
     if (info.length === 0) throw new ResourceNotFoundErrorModel(id)
 
-    const imageName = info[0].vacationPhotoName
+    const imageName = info[0].photoName
 
     return imageName
 }
